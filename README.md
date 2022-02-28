@@ -96,7 +96,8 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Nano into etc/ansible/hosts so the hosts file can be edited for the playbook to run on a specific machine
 - Specify the IP addresses of the Web VM's under "#[webservers]". Remove the "#" comment.
-- 
+   '10.0.0.9 ansible_python_interpreter=/usr/bin/python3'
+   '10.0.0.10 ansible_python_interpreter=/usr/bin/python3'
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
