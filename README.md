@@ -101,10 +101,11 @@ SSH into the control node and follow the steps below:
   
   - '10.0.0.10 ansible_python_interpreter=/usr/bin/python3'
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-
+- Create a new "(Elk)" group under the newly added web VM's and add the private IP show below the ELK-SERVER
+  - '10.1.0.4 ansible_python_interpreter=/usr/bin/python3
+ - Save and exit
+Name: filebeat-config.yml located inside /etc/ansible
+Run 'curl
+https://github.com/leasnider/Elk_Stack_Project/blob/4abbdc81e937e3b596dfe08066ffaf931a23fb75/Linux/filebeat-config.yml
+-Use nano to update the filebeat-config.yml file so that the ELK-SERVER's IP is at line 1106 and 1806
+ -Line 1105 'hosts: ["
