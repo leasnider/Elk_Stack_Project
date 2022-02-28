@@ -120,4 +120,6 @@ Name: filebeat-playbook.yml, located in /etc/ansible/roles
 - Create the playbook by running 'nano metricbeat-playbook.yml' then write the folling shown in the image below.
 
   https://github.com/leasnider/Elk_Stack_Project/blob/b003764cf07de50b98dbf4c071ff0af466f8c0fb/Ansible/metricbeat-playbook.yml
+  
+ - Save and exit
 
