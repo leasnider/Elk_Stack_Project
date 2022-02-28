@@ -123,3 +123,8 @@ Name: filebeat-playbook.yml, located in /etc/ansible/roles
   
  - Save and exit
 
+- In the same directory, run the playbook with the following command; 'ansible-playbook metricbeat-playbook.yml'
+- Navigate to http://20.127.31.26:5601 to make sure the playbook ran correctly and is working.
+![kabanaaaaaa](https://user-images.githubusercontent.com/91147087/156064357-50ccbebd-e92e-40ef-bb31-52c461615502.png)
+
+
