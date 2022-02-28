@@ -114,3 +114,6 @@ Name: filebeat-config.yml located inside /etc/ansible
   - Line 1806 'host "10.1.0.6:5601"'
 
 - Save and exit
+
+Name: filebeat-playbook.yml, located in /etc/ansible/roles
+
