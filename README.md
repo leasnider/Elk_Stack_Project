@@ -108,4 +108,6 @@ Name: filebeat-config.yml located inside /etc/ansible
 Run 'curl
 https://github.com/leasnider/Elk_Stack_Project/blob/4abbdc81e937e3b596dfe08066ffaf931a23fb75/Linux/filebeat-config.yml
 -Use nano to update the filebeat-config.yml file so that the ELK-SERVER's IP is at line 1106 and 1806
- -Line 1105 'hosts: ["
+ - Line 1105 'hosts: ["10.1.0.6:9200"]'
+ - Line 1806 'host "10.1.0.6:5601"'
+- Save and exit
