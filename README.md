@@ -25,7 +25,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly redundant, in addition to restricting traffic to the network.
 - Having a Load Balancer adds additional layers of security from potential threats such as a DDoS attack and authenticates user access. The additional added layer also serves the purose of a "bridge" between the two trusted networks and is used as a single entryway to a server group.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 - Filebeat: Monitors log files or other specified locations and collects log events, then forwards them to Elasticsearch or Logstash for indexing.
 - Metricbeat: Used to collect data such as CPU, load in a dock environment and memory.
 
