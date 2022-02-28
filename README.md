@@ -103,7 +103,7 @@ SSH into the control node and follow the steps below:
 
 - Create a new "(Elk)" group under the newly added web VM's and add the private IP show below the ELK-SERVER
   - '10.1.0.4 ansible_python_interpreter=/usr/bin/python3
- - Save and exit
+- Save and exit
 Name: filebeat-config.yml located inside /etc/ansible
 Run 'curl
 https://github.com/leasnider/Elk_Stack_Project/blob/4abbdc81e937e3b596dfe08066ffaf931a23fb75/Linux/filebeat-config.yml
